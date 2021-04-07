@@ -1,5 +1,5 @@
-## A.L.T(Agricultural products Livestock transaction)
-## 농축산 직거래 쇼핑몰 
+# A.L.T(Agricultural products Livestock transaction)
+# 농축산 직거래 쇼핑몰 
 ##
 ***
 
@@ -9,7 +9,7 @@
 
 ***
 
-사용버전(Version)
+###사용버전(Version)
 
 + Java JDK 1.8
 + Mybatis 3.5 mybatis-spring
