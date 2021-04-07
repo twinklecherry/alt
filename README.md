@@ -3,24 +3,24 @@
 ##
 ***
 
-####2021.02.22. ~ 2021-03-19 (31일 주말 및 공휴일포함)
-####채팅으로 판매자와 소비자간의 상품 가격 흥정 가능
-####고지영, 김용민, 윤성환, 임정민, 정서영 (총 5명)
+###2021.02.22. ~ 2021-03-19 (31일 주말 및 공휴일포함)
+###채팅으로 판매자와 소비자간의 상품 가격 흥정 가능
+###고지영, 김용민, 윤성환, 임정민, 정서영 (총 5명)
 
 ***
 
 사용버전(Version)
 
-Java JDK 1.8
-Mybatis 3.5 mybatis-spring
-HTML5/CSS3/JavaScript
-BootStrap 3 / BootStrap 4
-J-Query(ajax), Spring Rest API
-Servlet/JSP Servlet 4.0
-Spring- framework(AOP, MVC)  v5.2.13
++ Java JDK 1.8
++ Mybatis 3.5 mybatis-spring
++ HTML5/CSS3/JavaScript
++ BootStrap 3 / BootStrap 4
++ J-Query(ajax), Spring Rest API
++ Servlet/JSP Servlet 4.0
++ Spring- framework(AOP, MVC)  v5.2.13
  - Spring task/ Spring tx/ Spring WebSocket
-Spring security
-- Oracle DatatBase 11g 기준
++ Spring security
+ - Oracle DatatBase 11g 기준
  - SQL/저장공간 구성
 
 
