@@ -18,10 +18,10 @@
 + J-Query(ajax), Spring Rest API
 + Servlet/JSP Servlet 4.0
 + Spring- framework(AOP, MVC)  v5.2.13
- - Spring task/ Spring tx/ Spring WebSocket
+   + Spring task/ Spring tx/ Spring WebSocket
 + Spring security
- - Oracle DatatBase 11g 기준
- - SQL/저장공간 구성
+   + Oracle DatatBase 11g 기준
+   + SQL/저장공간 구성
 
 
 ***
