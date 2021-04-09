@@ -48,7 +48,7 @@
     + Paging 사용
     + Search 사용
   - 게시글 등록 및 수정, 삭제
-    + Image attach 사용
+    + [Image attach 사용](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/controller/UpDownController.java)
     + SpringSecurity 사용
 
 * [마이페이지(업체)](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/controller/VendorController.java)
