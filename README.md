@@ -34,36 +34,59 @@
    + Oracle DatatBase 11g 기준
    + SQL/저장공간 구성
 
-
 ***
 ### 목차
-+ 공지사항
-  + 전체목록리스트
+* 공지사항
+  - 전체목록리스트
     + Paging 사용
     + Search 사용
-  + 게시글 등록 및 수정, 삭제
+  - 게시글 등록 및 수정, 삭제
     + Image attach 사용
     + SpringSecurity 사용
 
-+ 마이페이지(업체)
-  + 목록
-  + 목록
-    + 목록
+* 마이페이지(업체)
+  - 내정보 조회, 수정
+  - 판매글목록
+  - 회원탈퇴
 
-+ 실시간 채팅
-  + 목록
-  + 목록
-    + 목록
+* 실시간 채팅
+  - 채팅방목록
+  - 채팅
 
 ***
 
-_링크를 기울임_
+* 공지사항
+  - spring-security로 ‘admin’ 계정만 글 작성, 수정, 삭제 가능
+  - 파일업로드와 다운로드는 Ajax를 비동기방식으로 json 데이터를 MyBatis를 통해 CRUD 작업
+  - 정규표현식과 JavaScript로 첨부파일의 사이즈와 종류 제한 
+  - 이미지파일‘I’와 일반파일‘F’로 데이터베이스를 구분해 JavaScript를 사용해 이미지파일일 경우, 사진을 보여주고 파일일 경우, 첨부파일 아이콘과 파일의 이름을 출력
 
+* 업체 마이페이지
+  - 업체 id를 기준으로 데이터베이스를 연결해 마이페이지 기존 정보 데이터를 가져옴
+  - 업체 id를 기준으로 데이터베이스와 연결해 데이터 수정
+  - 회원탈퇴는 탈퇴여부 컬럼의 기본값인 ‘N’을 ‘Y’로 수정, 하지만 회원의 권한은 삭제해 로그인 불가
 
-![자세한 설명할 링크제목](http://링크주소) 
+* 채팅
+  - Spring Web Socket을 이용
+  - 판매자와 연락하기를 클릭 시 기존의 방이 있으면, 데이터베이스와 연결해 기존의 데이터를 불러오고 기존의 방이 없을시, 새로운 방을 만들어 채팅창으로 바로 접속
+  - WebSocketConfigurer을 상속받아 config에서 socketHandler를 이용해 URL처리
+  - controller단에서 방에 대한 생성, 삭제, 이동 처리
+  - Handler에서 ArrayList와 HashMap을 이용해 채팅 메시지처리와 소켓 연결 및 종료 처리
+  
+- 판매자와채팅연결
 
-[네이버](www.naver.com, "네이버 링크 설명")
+<img src="https://user-images.githubusercontent.com/69239555/114127399-4e3eff80-9935-11eb-9e51-66a1ebf63a19.png" width="50%" height="50%" title="판매자와채팅연결" alt="판매자와채팅연결"></img><br>
+- 채팅방목록
+
+<img src="https://user-images.githubusercontent.com/69239555/114126684-e3d98f80-9933-11eb-9d13-0e04ac07a103.png" width="50%" height="30%" title="채팅방목록" alt="채팅방목록"></img><br>
+- 채팅
+
+<img src="https://user-images.githubusercontent.com/69239555/114127554-7cbcda80-9935-11eb-905e-2d0d262450a8.png" width="50%" height="30%" title="채팅" alt="채팅"></img>
+
 
 ***
 ## 기여자
 ### 고지영, 김용민, 윤성환, 임정민, 정서영 (총 5명)
+
+[네이버](www.naver.com, "네이버 링크 설명")
+_링크를 기울임_
