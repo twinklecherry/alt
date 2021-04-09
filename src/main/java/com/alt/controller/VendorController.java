@@ -40,7 +40,6 @@ public class VendorController {
 	public void vendorMypage() {
 	}
 	
-	   //서영
 			//마이페지이 - 회원 정보 비밀번호 수정
 			//@PreAuthorize("principal.username == #clientVO.cid")
 			@PostMapping("/vendor/modifyPassword")
@@ -64,7 +63,7 @@ public class VendorController {
 				return "redirect:/vendor/loginForm" ;
 				
 			}
-    //서영
+	
 	//마이페지이 - 회원 리스트 출력
 	//@PreAuthorize("principal.username == #clientVO.cid")
 	@GetMapping("/vendor/mypage_update_password")
