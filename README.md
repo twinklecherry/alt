@@ -43,7 +43,7 @@
 
 ***
 ### 목차
-* 공지사항
+* [공지사항](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/controller/NoticeController.java)
   - 전체목록리스트
     + Paging 사용
     + Search 사용
@@ -51,12 +51,12 @@
     + Image attach 사용
     + SpringSecurity 사용
 
-* 마이페이지(업체)
+* [마이페이지(업체)](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/controller/VendorController.java)
   - 내정보 조회, 수정
   - 판매글목록
   - 회원탈퇴
 
-* 실시간 채팅
+* [실시간 채팅](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/controller/ChatController.java)
   - 채팅방목록
   - 채팅
 
@@ -88,9 +88,9 @@
   </div>
 </details>
 
-  - spring-security로 ‘admin’ 계정만 글 작성, 수정, 삭제 가능
-  - 파일업로드와 다운로드는 Ajax를 비동기방식으로 json 데이터를 MyBatis를 통해 CRUD 작업
-  - 정규표현식과 JavaScript로 첨부파일의 사이즈와 종류 제한
+  - [spring-security](https://github.com/twinklecherry/alt/blob/main/pom.xml)로 ‘admin’ 계정만 글 작성, 수정, 삭제 가능
+  - 파일업로드와 다운로드는 Ajax로 json데이터를 MyBatis를 통해 DB의 CRUD 작업
+  - 정규표현식과 [JavaScript](https://github.com/twinklecherry/alt/tree/main/src/main/webapp/WEB-INF/views/notice)로 첨부파일의 사이즈와 종류 제한
   - 이미지파일‘I’와 일반파일‘F’로 데이터베이스를 구분해 JavaScript를 사용해 이미지파일일 경우, 사진을 보여주고 파일일 경우, 첨부파일 아이콘과 파일의 이름을 출력
 
 <details>
@@ -135,11 +135,11 @@
   </div>
 </details>
 
-  - Spring Web Socket을 이용
+  - [Spring Web Socket](https://github.com/twinklecherry/alt/blob/main/pom.xml)을 이용
   - 판매자와 연락하기를 클릭 시 기존의 방이 있으면, 데이터베이스와 연결해 기존의 데이터를 불러오고 기존의 방이 없을시, 새로운 방을 만들어 채팅창으로 바로 접속
-  - WebSocketConfigurer을 상속받아 config에서 socketHandler를 이용해 URL처리
+  - WebSocketConfigurer을 상속받아 [config](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/config/WebSocketConfig.java)에서 socketHandler를 이용해 URL처리
   - controller단에서 방에 대한 생성, 삭제, 이동 처리
-  - Handler에서 ArrayList와 HashMap을 이용해 채팅 메시지처리와 소켓 연결 및 종료 처리
+  - [Handler](https://github.com/twinklecherry/alt/blob/main/src/main/java/com/alt/util/SocketHandler.java)에서 ArrayList와 HashMap을 이용해 채팅 메시지처리와 소켓 연결 및 종료 처리
 
 ***
 ### 기여자
