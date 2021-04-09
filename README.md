@@ -1,7 +1,7 @@
 # A.L.T(Agricultural products Livestock transaction)
 # 농축산 직거래 쇼핑몰 
 
-![image](https://user-images.githubusercontent.com/69239555/114134071-0ffc0d00-9942-11eb-9673-d4819a43adfe.png)
+![index](https://user-images.githubusercontent.com/69239555/114134071-0ffc0d00-9942-11eb-9673-d4819a43adfe.png)
 
 ### 2021.02.22. ~ 2021-03-19 (31일 주말 및 공휴일포함)
 
